@@ -1,0 +1,73 @@
+@import url(/style.css);
+@import url(/base.css);
+
+.bookmark-icon {
+  position: absolute;
+  top: -0.5rem;
+  right: 1rem;
+}
+
+.answer {
+  padding: 1rem;
+  border: 1px solid black;
+  box-shadow: 2px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.tags {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.tag1 {
+  padding: 3px;
+  height: 2rem;
+  width: 3rem;
+  background-color: lightcoral;
+  text-align: center;
+  border-radius: 1px;
+}
+
+.tag2 {
+  padding: 3px;
+  height: 2rem;
+  width: 3rem;
+  background-color: rgba(128, 167, 240, 0.425);
+  text-align: center;
+  border-radius: 1px;
+}
+.tag3 {
+  padding: 3px;
+  height: 2rem;
+  width: 3rem;
+  background-color: rgb(187, 166, 235);
+  text-align: center;
+  border-radius: 1px;
+}
+.tag3 {
+  padding: 3px;
+  height: 2rem;
+  width: 3rem;
+  background-color: rgb(128, 240, 240);
+  text-align: center;
+  border-radius: 1px;
+}
+.tag4 {
+  padding: 3px;
+  height: 2rem;
+  width: 3rem;
+  background-color: rgb(240, 201, 128);
+  text-align: center;
+  border-radius: 1px;
+}
+
+/*.home-icon {
+  color: blue;
+  width: 5px;
+  height: 5px;
+}*/
+
+.button {
+  background-color: blue;
+}

@@ -9,7 +9,7 @@ body {
   background-color: rgb(71, 83, 241);
 }
 header {
-  background-color: /*rgba(39, 162, 233, 0.959);*/ rgba(255, 127, 80, 0.644);
+  background-color: rgba(255, 127, 80, 0.644);
 
   padding: 30px;
 }
@@ -18,7 +18,7 @@ h1 {
   color: white;
 }
 
-section {
+/*section {
   position: relative;
   text-align: justify;
   width: 80%;
@@ -29,8 +29,8 @@ section {
   background-color: aliceblue;
 }
 
-footer {
-  background-color:/*rgb(255, 166, 0);*/ rgb(35, 52, 126);
+nav {
+  background-color: rgb(35, 52, 126);
   display: flex;
   justify-content: space-around;
   position: fixed;
@@ -39,3 +39,4 @@ footer {
   left: 0;
   padding: 1px;
 }
+*/
