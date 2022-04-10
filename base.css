@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(71, 83, 241);
+}
+header {
+  background-color: /*rgba(39, 162, 233, 0.959);*/ rgba(255, 127, 80, 0.644);
+
+  padding: 30px;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+
+section {
+  position: relative;
+  text-align: justify;
+  width: 80%;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin: auto;
+  padding: 2rem;
+  background-color: aliceblue;
+}
+
+footer {
+  background-color:/*rgb(255, 166, 0);*/ rgb(35, 52, 126);
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 1px;
+}
