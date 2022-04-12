@@ -68,3 +68,7 @@
   text-align: center;
   border-radius: 1px;
 }
+
+.bookmark-icon-active {
+  background-color: aqua;
+}

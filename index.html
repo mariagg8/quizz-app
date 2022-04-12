@@ -14,14 +14,23 @@
       <br />
       <main class="content">
         <section class="cards">
-          <figure class="bookmark-icon">
+          <div>
             <img
+              data-js="bookmark-toggle"
+              class="bookmark-icon"
               src="https://img.icons8.com/external-kmg-design-flat-kmg-design/32/000000/external-bookmark-user-interface-kmg-design-flat-kmg-design.png"
             />
-          </figure>
+          </div>
           <h3>Question</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing ?</p>
-          <button class="answer">Show Answer</button>
+          <button
+            data-js="buttonAnswer"
+            class="button answer"
+            onclick="displayAnswer"
+          >
+            Show Answer
+          </button>
+          <p>this is the answer example</p>
           <ul class="tags">
             <li class="tag1">tag</li>
             <li class="tag2">tag</li>
@@ -84,5 +93,6 @@
         </ul>
       </nav>
     </div>
+    <script src="/main.js"></script>
   </body>
 </html>
