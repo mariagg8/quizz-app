@@ -1,0 +1,19 @@
+{
+  "name": "quizz-app",
+  "version": "1.0.0",
+  "description": "a small quizz app to learn web technlogies",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariagg8/quizz-app.git"
+  },
+  "author": "Maria Gonzalez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mariagg8/quizz-app/issues"
+  },
+  "homepage": "https://github.com/mariagg8/quizz-app#readme"
+}
