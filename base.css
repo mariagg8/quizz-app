@@ -27,9 +27,9 @@ h1 {
   margin: auto;
   padding: 2rem;
   background-color: aliceblue;
-}
+}*/
 
-nav {
+.nav {
   background-color: rgb(35, 52, 126);
   display: flex;
   justify-content: space-around;
@@ -39,4 +39,7 @@ nav {
   left: 0;
   padding: 1px;
 }
-*/
+
+.mobile-container {
+  padding-bottom: 90px;
+}
