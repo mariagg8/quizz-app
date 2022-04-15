@@ -4,7 +4,7 @@
   "description": "a small quizz app to learn web technlogies",
   "main": "index.html",
   "scripts": {
-    "eslint": "eslint *.js",
+    "eslint": "eslint \"**/*.js\"",
     "stylelint": "stylelint  **/*.css",
     "htmlhint": "htmlhint \"**/*.html\"",
     "test": "npm run htmlhint && npm run stylelint && npm run eslint",

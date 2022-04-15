@@ -1,4 +1,4 @@
 {
-    "*": "prettier --ignore-unknown --write",
-    "*.html": ["htmlhint"]
+    "*":  "npx prettier --ignore-unknown --write",
+    "*.html": ["npx htmlhint"]
   } 
