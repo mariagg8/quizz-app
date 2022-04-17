@@ -5,27 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profile</title>
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/base.css" />
+    <link rel="stylesheet" href="/profile/style.css" />
   </head>
   <body>
     <div class="mobile-container">
-      <header><h1>Quizz App</h1></header>
+      <header><h1>Profile</h1></header>
 
+      <main>
+        <section>
+          <div class="profile_content">
+            <div class="profile_figure">
+              <figure>
+                <img
+                  src="https://img.icons8.com/stickers/100/000000/user-female-circle.png"
+                  alt="My profile photo"
+                />
+              </figure>
+              <figcaption><h2>Maria Gonzalez</h2></figcaption>
+            </div>
+            <h3>About myself</h3>
+            <paragraph class="profile_about">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Consequatur veritatis labore repellendus sit molestias alias fuga
+              totam cupiditate ea tempore, delectus vitae nostrum culpa ducimus
+              fugiat ad in eius explicabo!
+            </paragraph>
+            <h2>Skills</h2>
+            <ul class="tags">
+              <li class="tag1">tag</li>
+              <li class="tag2">tag</li>
+              <li class="tag3">tag</li>
+              <li class="tag4">tag</li>
+            </ul>
+
+            <button class="btn_logout">LOGOUT</button>
+          </div>
+        </section>
+      </main>
       <footer>
-        <a href="'#"
-          ><img src="/images/icons8-home-50 (1).png" alt="Home icon"
-        /></a>
-        <a href="'#"
-          ><img src="/images/icons8-bookmark-50.png" alt="Bookmark icon"
-        /></a>
-        <a href="'#"
-          ><img src="/images/icons8-create-document-48.png" alt="Document icon"
-        /></a>
-        <a href="'#"
-          ><img
-            src="https://img.icons8.com/color/48/000000/test-account.png"
-            alt="Profile icon"
-        /></a>
+        <nav class="nav">
+          <a href="/"
+            ><img src="/images/icons8-home-50 (1).png" alt="Home icon"
+          /></a>
+          <a href="/bookmarks/"
+            ><img src="/images/icons8-bookmark-50.png" alt="Bookmark icon"
+          /></a>
+          <a href="/create/"
+            ><img src="/images/icons8-create-document-48.png" alt="Create icon"
+          /></a>
+          <a href="/profile/"
+            ><img
+              src="https://img.icons8.com/color/48/000000/test-account.png"
+              alt="Profile icon"
+          /></a>
+        </nav>
       </footer>
     </div>
   </body>
