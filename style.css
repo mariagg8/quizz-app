@@ -27,7 +27,13 @@ nav a {
   display: block;
   padding: 1rem;
 }
+nav a:hover {
+  background-color: rgb(5, 15, 99);
+}
 
+nav a:active {
+  background-color: rgb(5, 15, 99);
+}
 /*move to cards folder
 .cards {
   position: relative;
