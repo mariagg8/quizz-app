@@ -4,7 +4,80 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Bookmarks</title>
+    <link rel="stylesheet" href="/base.css" />
+    <link rel="stylesheet" href="/bookmarks/style.css" />
   </head>
-  <body></body>
+
+  <body>
+    <div class="mobile-container">
+      <header><h1>Bookmarks</h1></header>
+
+      <main class="content">
+        <section class="cards">
+          <div>
+            <img
+              data-js="bookmark-toggle"
+              class="bookmark-icon"
+              src="https://img.icons8.com/external-kmg-design-flat-kmg-design/32/000000/external-bookmark-user-interface-kmg-design-flat-kmg-design.png"
+              alt="bookmark icon"
+            />
+          </div>
+          <h3>Question</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing ?</p>
+          <button data-js="buttonAnswer" class="btn__answer">
+            Show Answer
+          </button>
+          <paragraph class="paragraph-answer">
+            this is the answer example</paragraph
+          >
+          <ul class="tags">
+            <li class="tag1">tag</li>
+            <li class="tag2">tag</li>
+            <li class="tag3">tag</li>
+            <li class="tag4">tag</li>
+          </ul>
+        </section>
+
+        <section class="cards">
+          <figure class="bookmark-icon">
+            <img
+              src="https://img.icons8.com/external-kmg-design-flat-kmg-design/32/000000/external-bookmark-user-interface-kmg-design-flat-kmg-design.png"
+              alt="Bookmark icon"
+            />
+          </figure>
+          <h3>Question</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing ?</p>
+          <button data-js="buttonAnswer" class="btn__answer">
+            Show Answer
+          </button>
+          <ul class="tags">
+            <li class="tag1">tag</li>
+            <li class="tag2">tag</li>
+            <li class="tag3">tag</li>
+            <li class="tag4">tag</li>
+          </ul>
+        </section>
+      </main>
+      <footer>
+        <nav class="nav">
+          <a href="/"
+            ><img src="/images/icons8-home-50 (1).png" alt="Home icon"
+          /></a>
+          <a href="/bookmarks/"
+            ><img src="/images/icons8-bookmark-50.png" alt="Bookmark icon"
+          /></a>
+          <a href="/create/"
+            ><img src="/images/icons8-create-document-48.png" alt="Create icon"
+          /></a>
+          <a href="/profile/"
+            ><img
+              src="https://img.icons8.com/color/48/000000/test-account.png"
+              alt="Profile icon"
+          /></a>
+        </nav>
+      </footer>
+    </div>
+    <script src="/main.js"></script>
+  </body>
 </html>
