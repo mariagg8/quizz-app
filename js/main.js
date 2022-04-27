@@ -1,5 +1,5 @@
-import { toggleText } from './answer.js';
+import './answer.js';
 
-toggleText();
+//toggleText();
 
 import './bookmarks.js';
