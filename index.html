@@ -13,7 +13,7 @@
       <header><h1>Quizz App</h1></header>
 
       <main class="content">
-        <section class="cards">
+        <section class="cards" data-js="card">
           <div>
             <img
               data-js="bookmark-toggle"
@@ -24,12 +24,14 @@
           </div>
           <h3>Question</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing ?</p>
-          <button data-js="buttonAnswer" class="btn__answer">
-            Show Answer
-          </button>
-          <paragraph class="paragraph-answer">
-            this is the answer example</paragraph
-          >
+
+          <button data-js="btn-answer" class="btn__answer">Show Answer</button>
+          <p data-js="textAnswer" class="hide">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+            esse, eum temporibus, ducimus ipsam commodi repudiandae alias dolor
+            nisi corrupti accusamus deleniti magni atque delectus quam,
+            cupiditate ipsa vero sed!
+          </p>
           <ul class="tags">
             <li class="tag1">tag</li>
             <li class="tag2">tag</li>
@@ -38,38 +40,26 @@
           </ul>
         </section>
 
-        <section class="cards">
-          <figure class="bookmark-icon">
+        <section data-js="card" class="cards">
+          <div>
             <img
+              data-js="bookmark-toggle"
+              class="bookmark-icon"
               src="https://img.icons8.com/external-kmg-design-flat-kmg-design/32/000000/external-bookmark-user-interface-kmg-design-flat-kmg-design.png"
-              alt="Bookmark icon"
+              alt="bookmark icon"
             />
-          </figure>
+          </div>
           <h3>Question</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing ?</p>
-          <button data-js="buttonAnswer" class="btn__answer">
-            Show Answer
-          </button>
-          <ul class="tags">
-            <li class="tag1">tag</li>
-            <li class="tag2">tag</li>
-            <li class="tag3">tag</li>
-            <li class="tag4">tag</li>
-          </ul>
-        </section>
 
-        <section class="cards">
-          <figure class="bookmark-icon">
-            <img
-              src="https://img.icons8.com/external-kmg-design-flat-kmg-design/32/000000/external-bookmark-user-interface-kmg-design-flat-kmg-design.png"
-              alt="Bookmark icon"
-            />
-          </figure>
-          <h3>Question</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing ?</p>
-          <button data-js="buttonAnswer" class="btn__answer">
-            Show Answer
-          </button>
+          <button class="btn__answer">Show Answer</button>
+          <p data-js="textAnswer">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+            esse, eum temporibus, ducimus ipsam commodi repudiandae alias dolor
+            nisi corrupti accusamus deleniti magni atque delectus quam,
+            cupiditate ipsa vero sed!
+          </p>
+
           <ul class="tags">
             <li class="tag1">tag</li>
             <li class="tag2">tag</li>
@@ -97,6 +87,6 @@
         </nav>
       </footer>
     </div>
-    <script src="/main.js"></script>
+    <script src="/js/main.js" type="module"></script>
   </body>
 </html>
