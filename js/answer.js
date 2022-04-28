@@ -1,19 +1,12 @@
-//toggle Answer
-import { answerToggle } from './selectors.js';
-import { textAnswer } from './selectors.js';
-
-//Single element
-answerToggle.addEventListener('click', () => {
-  console.log('i was clicked');
-  textAnswer.classList.toggle('show');
-});
-
-/*export function toggleText() {
-  const answerToggle = document.querySelector('[data-js="btn-answer"]');
-  const textAnswer = document.querySelector('[data-js="textAnswer"]');
-
-  answerToggle.addEventListener('click', () => {
-     console.log('i was clicked');
-    textAnswer.classList.toggle('show');
+//Show Answer in all card
+export default function toggleAnswer() {
+  const cards = document.querySelectorAll('[data-js="card"]');
+  cards.forEach(card => {
+    const answerToggle = card.querySelector('[data-js="btn-answer"]');
+    const textAnswer = card.querySelector('[data-js="textAnswer"]');
+    answerToggle.addEventListener('click', () => {
+      textAnswer.classList.toggle('hide');
+      console.log('click');
+    });
   });
-}*/
+}
