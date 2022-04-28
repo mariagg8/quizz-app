@@ -1,7 +1,10 @@
-import { bookmarkToggle } from './selectors.js';
+//Bookmarks for All
+export default function toogleBookmarks() {
+  const bookmarks = document.querySelectorAll('[data-js="bookmark-toggle"]');
 
-//Bookmark toggle
-
-bookmarkToggle.addEventListener('click', () => {
-  bookmarkToggle.classList.toggle('bookmark-icon-active');
-});
+  bookmarks.forEach(bookmarkToggle => {
+    bookmarkToggle.addEventListener('click', () => {
+      bookmarkToggle.classList.toggle('bookmark-icon-active');
+    });
+  });
+}
