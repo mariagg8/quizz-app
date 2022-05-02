@@ -14,9 +14,6 @@
   background-color: aliceblue;
 }
 .bookmark-icon {
-  /*position: absolute;
-  top: -0.4rem;
-  right: 1rem;*/
   all: unset;
   position: absolute;
   height: 10px;
@@ -27,7 +24,6 @@
 }
 
 .bookmark-icon-active {
-  /*background-color: aqua;*/
   border-color: hotpink;
   border-bottom-color: transparent;
 }

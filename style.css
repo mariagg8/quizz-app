@@ -34,13 +34,3 @@ nav a:hover {
 nav a:active {
   background-color: rgb(5, 15, 99);
 }
-/*move to cards folder
-.cards {
-  position: relative;
-  text-align: justify;
-  border: 2px solid white;
-  border-radius: 10px;
-  margin: auto;
-  padding: 2rem;
-  background-color: aliceblue;
-}*/
